@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="riddle"
+            android:hint="riddle"
             android:gravity="center"
-            android:enabled="false"
             android:saveEnabled="true"/>
 
         <EditText
@@ -35,8 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="answer"
+            android:hint="answer"
             android:gravity="center"
-            android:enabled="false"
             android:saveEnabled="true"/>
 
 
