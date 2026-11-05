@@ -48,13 +48,14 @@ class PracticalTest01Var08PlayActivity : AppCompatActivity() {
 
             when (view.id) {
                 R.id.b2 -> {
-                    if(answer==editText2.text.toString()){
-                        Toast.makeText(this@PracticalTest01Var08PlayActivity, "Victory!", Toast.LENGTH_SHORT).show()
-
-                    }
-                    else {
-                        Toast.makeText(this@PracticalTest01Var08PlayActivity, "Fail!", Toast.LENGTH_SHORT).show()
-                    }
+                    val reply = Intent().putExtra(Constants.RESULT_VALUE, editText2.text.toString())
+                    setResult(RESULT_OK, reply)
+                    finish()
+                }
+                R.id.b3 -> {
+                    val reply = Intent().putExtra(Constants.RESULT_VALUE, "No/Fail")
+                    setResult(RESULT_CANCELED, reply)
+                    finish()
                 }
 
                 else -> return

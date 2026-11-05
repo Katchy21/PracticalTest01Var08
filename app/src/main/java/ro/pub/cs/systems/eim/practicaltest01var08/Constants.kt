@@ -1,8 +1,11 @@
 package ro.pub.cs.systems.eim.practicaltest01var08
 
 object Constants {
+    const val TAG = "practice_report"
+
     const val VAL1 = "val1"
     const val VAL2 = "val2"
+    const val result = "result"
 
     const val SECONDARY_REQUEST_CODE = 1
     const val RESULT_CONFIRM = "result canceled"
