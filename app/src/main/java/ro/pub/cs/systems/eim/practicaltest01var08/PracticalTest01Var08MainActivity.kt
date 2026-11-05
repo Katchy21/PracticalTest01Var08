@@ -64,6 +64,8 @@ class PracticalTest01Var08MainActivity : AppCompatActivity() {
 
         intent.putExtra(Constants.VAL1, riddle)
         intent.putExtra(Constants.VAL2, answer)
+        Log.d(Constants.TAG, "sunt in main activity si am trimis answer: $answer")
+
 
         startActivityForResult(
             intent,

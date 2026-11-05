@@ -5,6 +5,7 @@ object Constants {
 
     const val VAL1 = "val1"
     const val VAL2 = "val2"
+    const val SERVICERESULT = "serviceresult"
     const val result = "result"
 
     const val SECONDARY_REQUEST_CODE = 1
@@ -14,11 +15,11 @@ object Constants {
     const val NUMBER_1 = "number_1"
     const val NUMBER_2 = "number_2"
 
-    const val ACTION_SUMA = "ro.pub.cs.systems.eim.practicaltestpractice01.ACTION_SUMA"
-    const val ACTION_PRODUS = "ro.pub.cs.systems.eim.practicaltestpractice01.ACTION_PRODUS"
-    const val ACTION_MAXIM = "ro.pub.cs.systems.eim.practicaltestpractice01.ACTION_MAXIM"
+    const val ACTION = "ro.pub.cs.systems.eim.practicaltestpractice01.ACTION"
 
     const val DATE_TIME = "date_time"
+    const val ANSWER = "answer"
+
     const val SUM = "sum"
     const val PROD = "prod"
     const val MAX = "max"
